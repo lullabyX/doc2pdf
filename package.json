@@ -4,7 +4,8 @@
   "description": "Scrape documentation and save as pdf",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,10 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "2.8.4"
-  }
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^19.7.3"
+  },
+  "type": "module"
 }
